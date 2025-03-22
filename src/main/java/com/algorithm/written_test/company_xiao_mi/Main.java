@@ -1,14 +1,9 @@
-## 第一题
+package com.algorithm.written_test.company_xiao_mi;
 
-```java
 public class Main {
     public static void main(String[] args) {
+
 
     }
 }
 
-```
-
-
-
-## 第二题
