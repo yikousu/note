@@ -4,6 +4,21 @@ package com.algorithm.basic.search.binary_search;
  * @author hac
  * @date 2025/4/6 15:05
  */
+
+/*
+流程：
+初始：
+left = 0
+right = 数组长度 - 1
+
+循环：
+1. 取中间位置 mid = (left + right) / 2
+2. 判断 nums[mid] 和 target 的关系：
+   - 相等：返回 mid
+   - 小于：目标在右边 → left = mid + 1
+   - 大于：目标在左边 → right = mid - 1
+3. 如果 left > right，说明没找到，返回 -1
+ */
 public class BinarySearch1 {
     public static int binarySearch(int[] arr, int target) {
         int left = 0;

@@ -2,10 +2,6 @@ package com.algorithm.basic.sort;
 
 import java.util.Arrays;
 
-/**
- * @author <a href="https://github.com/yikousu">yikousu</a>
- * @date 2024/5/27 20:37
- */
 // 插入排序
 public class InsertSort {
     public static void InsertionSort(int[] arr) {
