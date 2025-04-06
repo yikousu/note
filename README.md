@@ -83,6 +83,18 @@
 * **桶排序**：把数据按范围分到不同桶中，各桶内单独排序，再合并。
 * **基数排序**：按个位、十位、百位……逐位排序。
 
+## 面试
+
+### 实现 LRU（Least Recently Used）缓存
+
+- [用 Java 内置类 LinkedHashMap](src/main/java/com/algorithm/intv/LRUCache.java)
+- 手写 LRU（HashMap + 双向链表）
+
+
 ## 其他
 
-[hot100](src/main/java/com/algorithm/hot100/)
+[力扣hot100](src/main/java/com/algorithm/hot100/)
+
+[up主labuladong](src/main/java/com/algorithm/labuladong)
+
+[力扣其他(除hot100)](src/main/java/com/algorithm/leetcode_other)
