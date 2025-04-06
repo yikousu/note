@@ -1,4 +1,4 @@
-package com.algorithm.sort;
+package com.algorithm.basic.sort;
 
 public class HeapSort {
     public static void heapSort(int[] arr) {
